@@ -14,5 +14,9 @@ type message struct {
 	Body    string   `json:"body,omitempty"`
 }
 ```
-## TODOS
-- [ ] Add validator hooks for package mailer.
+
+#info
+at first this project was inspired by https://github.com/ericklima-ca/mailmango and then i began to rewite it.<br>
+now have the ability to try ten times and the delay is first 1 seconds, then 2, then 4 and ...:
+<br>
+<img src="descr/image01.png" >
